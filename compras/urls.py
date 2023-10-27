@@ -24,5 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.inicio,name='inicio'),
     path('crear_cliente/',views.CrearCliente,name='CrearCliente'),
+    path('listar_cliente/',views.ListarCliente,name='ListarCliente'),
     
 ]
